@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+
+    <title>TCM</title>
+  </head>
+  <body>
+    <!-- ENCABEZADO / HEADER -->
+    <div id="header">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../media/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="tit">
+        <h1>TODOS CONTRA MI</h1>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="../index.html"> <p>Inicio</p></a>
+          </li>
+          <li>
+            <a href="nosotros.html"> <p>Nosotros</p></a>
+          </li>
+          <li>
+            <a href="productos.html"> <p>Productos</p></a>
+          </li>
+          <li>
+            <a href="contacto.html"> <p>Contacto</p></a>
+          </li>
+          <li>
+            <a href="ofertas.html"> <p>Ofertas</p></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="formu">
+        <form class="formu">
+          <input type="search" value="Text" />
+          <input type="submit" value="buscar" />
+        </form>
+      </div>
+    </div>
+
+    <div id="formulario">
+      <form action="recibe.html" method="POST" enctype="multipart/form-data">
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre" />
+
+        <input type="email" name="email" placeholder="Ingresa tu email" /><br />
+        <br />
+        <input type="text" name="telefono" placeholder="Ingresa tu telefono" />
+
+        <label>Ingresa tu mensaje: </label>
+
+        <br />
+
+        <textarea></textarea>
+        <br />
+
+        <label>Como nos comunicamos con vos?? Whatsapp:</label>
+        <input type="radio" name="medio" value="Whatsapp" />
+        <label>Email:</label>
+        <input type="radio" name="medio" value="Email" />
+
+        <h3 class="hr">Si elegiste Whatsapp ,en que horario preferís</h3>
+
+        <select>
+          <option>10:00 / 12:00</option>
+          <option>12:00 / 14:00</option>
+          <option>14:00 / 16:00</option>
+        </select>
+
+        <input type="submit" name="sube_form" value="ENVIAR" />
+        <input type="reset" name="resetear" value="Borrar todo" />
+      </form>
+    </div>
+
+    <div class="footer">
+      <img src="../media/logoFace.jpg" alt="logoFace" width="10px" />
+      <img src="../media/logoIg.png" alt="logoIg" width="10px" />
+      <img src="../media/logoWap.png" alt="logoWap" width="10px" />
+      <p>Gabriel Marasco WEB - Codderhouse 16675</p>
+    </div>
+  </body>
+</html>
