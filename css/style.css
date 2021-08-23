@@ -10,8 +10,8 @@
 /* CSS DE HEADER */
 
 #header {
-  /*   display: flex;
-  flex-flow: column wrap; */
+  display: flex;
+  flex-flow: column wrap;
   padding: 20px;
   align-items: center;
   background: rgb(255, 66, 244);
@@ -130,6 +130,7 @@ textarea {
   flex-flow: row wrap;
   padding: 20px;
   justify-content: space-around;
+  margin-top: 50px;
 }
 .producto {
   border: solid 1px black;
@@ -155,4 +156,60 @@ textarea {
   padding: 15px;
   border-bottom: 1px solid black;
   margin-top: 30px;
+}
+/* RESPONSIVE  */
+/* HEADER */
+
+@media (min-width: 1024px) {
+  #header {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(255, 66, 244);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 66, 244, 1) 39%,
+      rgba(162, 52, 149, 0.9653579676674365) 100%
+    );
+  }
+
+  .logo img {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+
+  .tit h1 {
+    font-family: "Merienda", cursive;
+    font-size: 2rem;
+  }
+
+  .links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .links ul li {
+    display: inline-block;
+    padding: 5px;
+    font-family: "Stint Ultra Condensed", cursive;
+  }
+
+  .links a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  p {
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  .formu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
 }
