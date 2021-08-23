@@ -123,3 +123,36 @@ textarea {
 .titulo {
   padding-top: 30px;
 }
+
+/* PAGINA PRODUCTOS */
+.catalogo {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+}
+.producto {
+  border: solid 1px black;
+  margin: 5px;
+}
+.producto img {
+  width: 150px;
+  padding: 5px;
+}
+.producto h3 {
+  text-align: center;
+  font-family: "Stint Ultra Condensed", cursive;
+}
+.producto p {
+  text-align: center;
+  font-family: "Stint Ultra Condensed", cursive;
+}
+
+/* CSS OFERTAS */
+.talles {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+}
